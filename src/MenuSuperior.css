@@ -1,0 +1,37 @@
+.menu-superior{
+    background-color: #282c34;
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.menu-superior nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.menu-itens {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu-itens li {
+    margin-right: 25px;
+}
+.menu-itens a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+.menu-itens a:hover {
+    color: #61dafb
+}
