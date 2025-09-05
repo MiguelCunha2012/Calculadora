@@ -1,5 +1,5 @@
 .menu-superior{
-    background-color: #282c34;
+    background-color: #ac4d19;
     color: white;
     padding: 15px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 .logo a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.8em;
     font-weight: bold;
@@ -27,11 +27,11 @@
     margin-right: 25px;
 }
 .menu-itens a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.1em;
     transition: color 0.3s ease;
 }
 .menu-itens a:hover {
-    color: #61dafb
+    color: #ffff
 }

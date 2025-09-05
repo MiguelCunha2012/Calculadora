@@ -6,7 +6,7 @@ function MenuSuperior() {
         <header className="menu-superior">
             <nav>
                 <div className="logo">
-                    <a href="/">Minha App</a>
+                    <a href="/">Calculadora de Juros Compostos</a>
                 </div>
                 <ul className="menu-itens">
                     <li><a href="/">Calculadora</a></li>
