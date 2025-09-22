@@ -1,49 +1,64 @@
-body {
-  background-color: #1f0f0f00;
-}
 .calculadora-container {
   max-width: 400px;
   margin: 50px auto;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   font-family: sans-serif;
-  background-color: #c0c0c0;
+  background-color: #f0f0f0; /* Um cinza um pouco mais claro */
 }
 
-h1{
+h1 {
   text-align: center;
   color: #333;
+  margin-bottom: 25px;
 }
-.input-group{
-  margin-bottom: 15px;
+
+.input-group {
+  margin-bottom: 20px; /* Aumenta o espaço entre os campos */
+  position: relative; /* Necessário para o posicionamento do placeholder */
 }
-.input-group label{
+
+.input-group label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   color: #555;
+  font-weight: bold;
 }
-.input-group input{
+
+/* ESTA É A REGRA MAIS IMPORTANTE PARA O SEU PROBLEMA */
+.input-group input {
   width: 100%;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 12px 20px; /* Mais preenchimento horizontal */
+  border-radius: 25px;
   border: 1px solid #ddd;
+  font-size: 16px;
   box-sizing: border-box;
 }
-button{
+
+/* Para o texto "Ex: 1000" dentro do campo */
+.input-group input::placeholder {
+  color: #aaa;
+}
+
+
+button {
   width: 100%;
-  padding: 12px;
+  padding: 15px;
   border: none;
-  border-radius: 20px;
-  background-color: #808080 ;
-  color: #fff;
-  font-size: 16px;
+  border-radius: 25px;
+  background-color: #5a6268; /* Cor do botão da sua imagem */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
-};
-  button:hover{
-    background-color: #0056b3;
-  }
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #4a5056;
+}
 
   .resultado{
     margin-top: 20px;

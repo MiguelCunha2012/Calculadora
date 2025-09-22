@@ -32,7 +32,7 @@ function CalculadoraJuros(){
         placeholder="Ex: 1000" />
         </div>
 
-        <div className="inpout-group">
+        <div className="input-group">
             <label htmlFor="Taxa de Juros Mensal (%): "></label>
             <input type="number" 
             value={taxa}
