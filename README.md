@@ -3,10 +3,6 @@
 Um projeto web simples e interativo para calcular o montante final de um investimento com base nos juros compostos. Ideal para quem está planejando o futuro financeiro e deseja visualizar o poder do crescimento exponencial.
 
 Este projeto foi desenvolvido como um exercício prático para aprender os fundamentos do **React.js** com **Vite**.
-
-![Prévia da Calculadora](https://i.imgur.com/vH9J4Wd.png) 
-*(Sugestão: tire um print da sua versão final e substitua o link acima para ter uma imagem real do seu projeto!)*
-
 ---
 
 ## ✨ Funcionalidades
